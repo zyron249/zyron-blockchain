@@ -1,0 +1,6 @@
+chain:
+  id: zyron-testnet-1
+  name: zyron
+  denom: uzyn
+  token: ZYN
+version: 0.1.0
