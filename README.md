@@ -1,35 +1,22 @@
 # ZYRON Blockchain
 
-## What is ZYRON?
-ZYRON is a custom Layer-1 blockchain built with Cosmos SDK. Native token: **ZYN** (base denom: `uzyn`).
-
+**Custom Layer-1 Blockchain**  
+Native Token: **ZYN** (`uzyn`)  
 Chain ID: `zyron-testnet-1`
 
-## Quick Start (Google Cloud Shell / Codespaces)
+## What is ZYRON?
+ZYRON is a sovereign Cosmos SDK-based Layer-1 blockchain designed for high performance and easy staking.
 
-### 1. Install Dependencies
+## Prerequisites
 ```bash
-sudo apt update && sudo apt install -y curl git build-essential make
+sudo apt update && sudo apt install curl git build-essential make -y
 curl https://get.ignite.network/ignite! | bash
-ignite version
 ```
 
-### 2. Initialize Project (if not scaffolded)
-```bash
-git clone https://github.com/zyron249/zyron-blockchain.git
-cd zyron-blockchain
-```
+## Full Setup Instructions
+1. Clone this repo
+2. Run `ignite chain scaffold` if needed
+3. Customize for ZYN and zyron-testnet-1
+4. Use make commands
 
-### 3. Build & Run
-See detailed instructions below.
-
-## Features
-- Staking
-- Bank transfers
-- Validator creation
-- Slashing
-- Governance
-
-## Roadmap
-- Phase 1: Cosmos SDK MVP
-- ... (full roadmap in docs/roadmap.md)
+See scripts and docs for details.
