@@ -1,7 +1,5 @@
 #!/bin/bash
 set -e
-
-# Initialize ZYRON testnet
-ignite chain init --home ~/.zyron
-
-echo '✅ ZYRON initialized!'
+echo "Initializing ZYRON..."
+zyrond init zyron-node --chain-id zyron-testnet-1
+echo "Done. Edit genesis for uzyn."

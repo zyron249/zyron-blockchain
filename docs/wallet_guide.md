@@ -1,3 +1,3 @@
 # Wallet Guide
 
-Use `zyrond keys add` to create wallet.
+zyrond keys add ...

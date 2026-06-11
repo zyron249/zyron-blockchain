@@ -1,4 +1,4 @@
-#!/usr/bin/make
+#!/usr/bin/make -f
 
 all: build
 
@@ -13,6 +13,3 @@ init:
 
 start:
 	./scripts/start.sh
-
-testnet:
-	ignite chain serve -c config.yml --reset-once
